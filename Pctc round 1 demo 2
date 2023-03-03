@@ -1,4 +1,10 @@
-number_1 = int(input())
-number_2 = int(input())
-ans = number_1 - number_2
-print(ans)
+no_1 = int(input())
+no_2 = int(input())
+if no_1 > no_2:
+    big = no_1
+    small = no_2
+elif no_2 > no_1:
+    big = no_2
+    small = no_1
+    
+print(big - small)
