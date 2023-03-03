@@ -1,0 +1,8 @@
+word = str(input())
+letters = len(word)
+repeat = 30//letters
+remainder = 30%letters
+if remainder > 0:
+  repeat = repeat + 1
+
+print(word*repeat)
