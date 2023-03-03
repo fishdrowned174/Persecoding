@@ -1,0 +1,11 @@
+n1 = int(input())
+op = str(input())
+n2 = int(input())
+
+if op == "*":
+    a = n1 * n2
+    
+elif op == "+":
+    a = n1 + n2
+    
+print(a)
