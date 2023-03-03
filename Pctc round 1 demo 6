@@ -1,0 +1,20 @@
+n1 = input()
+n2 = input()
+n3 = input()
+n4 = input()
+n5 = input()
+p = [n1, n2, n3, n4, n5]
+np = p.index("Ellie")
+ap = np + 1
+if ap == 3:
+  ap = str(ap)
+  print(ap + "rd")
+elif ap == 2:
+  ap = str(ap)
+  print(ap + "nd")
+elif ap == 1:
+  ap = str(ap)
+  print(ap + "st")
+elif ap >= 4:
+  ap = str(ap)
+  print(ap + "th")
