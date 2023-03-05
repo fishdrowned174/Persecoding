@@ -1,0 +1,9 @@
+a1 = str(input())
+a2 = str(input())
+letter_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+p1 = letter_list.index(a1)
+p2 = letter_list.index(a2)
+if p1 < p2:
+  print(a1,a2, sep='')
+elif p2 < p1:
+  print(a2,a1, sep='')
