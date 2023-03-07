@@ -1,0 +1,8 @@
+lvl = int(input())
+def plant():
+  print(".|.")
+
+print("\./")
+
+for i in range(0, lvl):
+  plant()
